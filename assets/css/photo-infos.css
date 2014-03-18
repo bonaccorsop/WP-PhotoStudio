@@ -1,0 +1,33 @@
+div#photoinfos-wrapper {
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+div.exif-wrapper {
+    overflow: hidden;
+}
+div.exif-wrapper .exif-data {
+    width: 46%;
+    margin-top: 8px;
+    float: left;
+    margin-left: 3%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 9px;
+}
+div.exif-data span.lbl {
+    float: left;
+    font-family: Helvetica;
+}
+div.exif-data span.val {
+    float: right;
+    margin-right: 13px;
+}
+#photoinfos-wrapper > div.map {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin: auto;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 30px;
+}
